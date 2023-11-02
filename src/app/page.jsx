@@ -7,7 +7,7 @@ export default function Home() {
 
   return (
     <>
-      <h1 className="text-2xl text-center mt-28">Itau Unibanco</h1>
+      <h1 className="text-2xl text-center mt-28">Itau Unibanco | Pre-Case</h1>
       <div className="w-50 mx-auto ">
         <Chart />
       </div>
