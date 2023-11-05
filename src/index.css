@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+
+body {
+  color: #fff;
+  background: radial-gradient(circle, rgba(11,35,75,1) 0%, rgba(11,26,52,1) 100%);
+  height: 100vh;
+}
+
+
+@media screen and (min-width: 1280px) { /*? For Desktops */
+  #turma {
+    margin: 0 auto;
+    margin-bottom: 3rem;
+    width: 15%;
+  }
+
+  #main-charts {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+@media screen and (max-width: 1280px) { /*? For Small Screens */
+  #turma {
+    margin: 3rem auto;
+    width: 30%;
+  }
+
+  #main-charts {
+    display: block;
+    justify-content: space-around;
+  }
+}
+
+@media screen and (max-width: 768px) { /*? For Mobile Screens */
+  .apexcharts-canvas {
+    scale: .8;
+    left: -100px;
+  }
+  #turma {
+    margin: 3rem auto;
+    width: 30%;
+  }
+
+  #main-charts {
+    display: block;
+    justify-content: space-around;
+  }
+}
+
+.apexcharts-canvas {
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+}
+.apexcharts-legend-text {
+  color: #fff !important;
+}
+
+#subheader {
+  font-family: 'Satisfy', cursive;
+  color: #ED7332;
+}
+
+#chart-card:hover {
+  cursor: pointer;
+  background: #2965cc59;
+  transition: .3s;
+}
+
+#pre-case-quests:hover {
+  cursor: pointer;
+  color: #ED7332;
+  transition: .3s;
+}
