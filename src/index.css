@@ -76,9 +76,28 @@ body {
   color: #fff !important;
 }
 
+#divider {
+  width: 110%;
+  /* border-bottom: 1px solid #000; */
+  height: 1px;
+  background: linear-gradient(to right, #2965cc, #ffffff00, #2965cc);
+  margin: 5rem auto;
+}
+#insight-divider {
+  margin: 2rem 0;
+}
+
 #subheader {
   font-family: 'Satisfy', cursive;
   color: #ED7332;
+}
+
+#chart-card {
+  padding: 2rem;
+  width: 30%;
+  height: auto;
+  border: 1px solid #15294d;
+  border-radius: 1rem;
 }
 
 #chart-card:hover {

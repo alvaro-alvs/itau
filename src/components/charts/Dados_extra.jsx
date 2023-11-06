@@ -37,5 +37,5 @@ export default function Dados_Brasil() {
   }
 
 
-  return <Charts className="border rounded-xl p-10 border-slate-700" options={options} series={options.series} type="donut" width={500} height={350} />
+  return <Charts className="border rounded-xl p-10 border-slate-700" options={options} series={options.series} type="pie" width={500} height={350} />
 }

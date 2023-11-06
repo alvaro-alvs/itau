@@ -11,7 +11,8 @@ export default function Pre_case_quests() {
                         fintechs, qual são os principais diferenciais dos players de mercado?
                     </a>
 
-                    <br />
+                    <br /> 
+                    <div id='divider' className=""></div>
 
                     <a id="pre-case-quests" href="/questions/two" className="text-center">
                         <em className="text-5xl"> 2. </em> Pensando em saúde financeira, busque vantagens e riscos no uso do cartão

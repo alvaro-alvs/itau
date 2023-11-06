@@ -9,6 +9,9 @@ export default function PreCaseOne() {
                     Com uma concorrência de cartão de crédito tão alta entre os bancos e
                     fintechs, qual são os principais diferenciais dos players de mercado?
                 </h1>
+                <p>
+                    
+                </p>
             </div>
         </>
     )

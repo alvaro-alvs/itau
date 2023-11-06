@@ -15,9 +15,11 @@ export default function Home() {
                 <h1 className="text-5xl font-extralight text-center mt-10"> Itau Unibanco | Pre-Case </h1>
                 <img id="turma" src="turma.png" alt="" srcset="" className="" />
             </header>
-            <Chart_section />
+            <section className="font-light text-center mt-10">
+                <h1 className="mt-48 mb-10 text-4xl "> Temas Relevantes Sobre Saúde Financeira </h1>
+                <Chart_section />
+            </section>
             <Pre_case_quests />
-            <a href=""></a>
         </>
     )
 }

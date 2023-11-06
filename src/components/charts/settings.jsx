@@ -1,5 +1,8 @@
 
 
+export const size_x = 500
+export const size_y = 350
+
 export const defaultTitle = {
     fontSize: '20px',
     color: '#fff',
