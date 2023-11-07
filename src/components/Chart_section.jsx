@@ -1,4 +1,3 @@
-import Dados_extra from "./charts/Dados_extra"
 import Dados_Brasil from "./charts/Brasil_credito"
 import Fatores_endividamento from "./charts/Dados_endividamento"
 
@@ -11,7 +10,7 @@ export default function Chart_section() {
                 <Dados_Brasil />
             </a>
 
-            <a id="chart-card">
+            <a href='/questions/two' id="chart-card">
                 <Fatores_endividamento />
             </a>
         </section>

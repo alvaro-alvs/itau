@@ -33,10 +33,10 @@ export default function PreCaseOneSection() {
             <AccordionHeader onClick={() => handleOpen(0)}
                 className="font-light text-center"
             >
-                Taxas e Custos Competitivos
+                Educação Financeira
             </AccordionHeader>
             <AccordionBody className="text-white font-light text-2xl">
-                Muitas fintechs oferecem cartões de crédito com taxas de juros e anuidades mais baixas em comparação com os bancos tradicionais, o que pode atrair consumidores em busca de economias.
+                Fornecer recursos e ferramentas de educação financeira para ajudar os clientes a tomar decisões informadas sobre suas finanças.
             </AccordionBody>
         </Accordion>
 
@@ -44,10 +44,32 @@ export default function PreCaseOneSection() {
             <AccordionHeader onClick={() => handleOpen(1)}
                 className="font-light text-center"
             >
+                Taxas e Custos Competitivos
+            </AccordionHeader>
+            <AccordionBody className="text-white font-light text-2xl">
+                Muitas fintechs oferecem cartões de crédito com taxas de juros e anuidades mais baixas em comparação com os bancos tradicionais, o que pode atrair consumidores em busca de economias.
+            </AccordionBody>
+        </Accordion>
+
+        <Accordion open={open === 2} icon={<Icon id={2} open={open} />}>
+            <AccordionHeader onClick={() => handleOpen(2)}
+                className="font-light text-center"
+            >
                 Inovação Tecnológica
             </AccordionHeader>
             <AccordionBody className="text-white font-light text-2xl">
                 Introduzir tecnologias inovadoras, como pagamento por aproximação (NFC), autenticação biométrica e IA para melhorar a experiência do cliente.
+            </AccordionBody>
+        </Accordion>
+
+        <Accordion open={open === 3} icon={<Icon id={3} open={open} />}>
+            <AccordionHeader onClick={() => handleOpen(3)}
+                className="font-light text-center"
+            >
+                Cobertura de Rede
+            </AccordionHeader>
+            <AccordionBody className="text-white font-light text-2xl">
+                Ter uma ampla rede de agências e caixas eletrônicos para facilitar o acesso físico aos serviços financeiros.
             </AccordionBody>
         </Accordion>
     </div>

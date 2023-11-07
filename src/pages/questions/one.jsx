@@ -33,13 +33,17 @@ export default function PreCaseOne() {
         <>
             <BackBar />
             <PreCaseHeader />
-            <div className="h-screen w-2/3 mx-auto">
+            <div className="w-2/3 mx-auto">
                 <h1 id="pre-case-question-title" className="text-center text-4xl font-light mt-28 shadow-white capitalize">
                     Com uma concorrência de cartão de crédito tão alta entre os bancos e
                     fintechs, qual são os principais diferenciais dos players de mercado?
                 </h1>
 
                 <p className="text-2xl text-center font-light mt-28">
+
+                    <h2 className="text-2xl w-2/3 mx-auto">
+                        No cenário de cartões de crédito e fintechs, a concorrência é alta e os clientes estão buscando melhores opções e benefícios. Para diferenciar-se no mercado, os players devem oferecer:
+                    </h2>
 
                     <PreCaseOneSection />
 

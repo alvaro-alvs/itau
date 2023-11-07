@@ -1,7 +1,7 @@
 import { defaultTitle, itauTheme } from './settings'
 import ApexCharts from 'react-apexcharts'
 
-export default function Dados_Brasil() {
+export default function PreCaseEndividamento() {
 
   const data = {
     'correntistas_ativos': 26500000,

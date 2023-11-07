@@ -34,8 +34,8 @@ export default function Dados_Brasil() {
         <Chart className='' options={options} series={options.series} type="donut" width={size_x} height={size_y} />
 
         <p className="mt-20">
-            O aumento do uso do cartão de crédito nas classes mais baixas no Brasil é uma tendência complexa, com vantagens e desafios. A educação financeira e o acesso a serviços financeiros justos são fundamentais para garantir que as pessoas possam aproveitar os benefícios do crédito de forma responsável e sustentável.
-
+            O aumento do uso do cartão de crédito nas classes mais baixas no Brasil é uma tendência complexa, com vantagens e desafios. <br /> <br />
+            <em className="text-2xl"> A educação financeira</em> <br /> e o acesso a serviços financeiros justos são fundamentais para garantir que as pessoas possam aproveitar os benefícios do crédito de forma responsável e sustentável.
         </p>
     </>
 }

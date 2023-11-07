@@ -2,7 +2,7 @@
 
 export default function PreCaseTwoSection() {
     return <div className="text-center w-100 mx-auto my-10">
-        <article className="grid grid-flow-col justify-around rounded-xl h-screen py-10">
+        <article className="grid grid-flow-col justify-around rounded-xl py-10">
 
             <aside className="grid-cols-1">
                 <h2 className="text-center text-4xl font-light mb-10">Vantagens</h2>
