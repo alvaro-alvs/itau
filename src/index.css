@@ -76,12 +76,20 @@ body {
   color: #fff !important;
 }
 
+#pre-case-question-title {
+  text-shadow: 0 0 1rem #fff;
+}
+
 #divider {
   width: 110%;
   /* border-bottom: 1px solid #000; */
   height: 1px;
   background: linear-gradient(to right, #2965cc, #ffffff00, #2965cc);
   margin: 5rem auto;
+}
+#vertical-divider {
+  border-left: 1px solid #fff;
+  height: 100%;
 }
 #insight-divider {
   margin: 2rem 0;

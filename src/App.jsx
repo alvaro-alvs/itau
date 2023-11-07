@@ -5,7 +5,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Questions from './pages/questions/Questions'
 import Footer from './components/Footer'
 import PreCaseOne from './pages/questions/one';
-import PreCaseTwo from './pages/questions/second';
+import PreCaseTwo from './pages/questions/two';
 
 
 export default function App() {
