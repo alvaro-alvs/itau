@@ -33,7 +33,7 @@ export default function PreCaseOne() {
         <>
             <BackBar />
             <PreCaseHeader />
-            <div className="w-2/3 mx-auto">
+            <div className="xl:w-2/3 mx-auto">
                 <h1 id="pre-case-question-title" className="text-center text-4xl font-light mt-28 shadow-white capitalize">
                     Com uma concorrência de cartão de crédito tão alta entre os bancos e
                     fintechs, qual são os principais diferenciais dos players de mercado?

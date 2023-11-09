@@ -7,7 +7,7 @@ export default function PreCaseTwo() {
         <>
             <BackBar />
             <PreCaseHeader />
-            <div className="block w-2/3 mx-auto my-52">
+            <div className="block xl:w-2/3 mx-auto my-52">
                 <h1 id="pre-case-question-title" className="text-center text-4xl font-light mt-28 shadow-white capitalize">
                     Pensando em saúde financeira, busque vantagens e riscos no uso do cartão
                     de crédito.
@@ -21,7 +21,7 @@ export default function PreCaseTwo() {
                     <h2 className="mt-48 font-light text-center mb-10 text-4xl">
                         Dados Sobre o Endividamento no Brasil
                     </h2>
-                    <div className="grid items-center grid-cols-2 gap-10 gap-y-20 grid-item text-center">
+                    <div className="grid items-center grid-cols-2 max-sm:px-5 gap-10 gap-y-20 grid-item max-sm:grid-cols-1 text-center">
                         <p id="1" className=''>
                             <header className="text-3xl mb-3 underline underline-offset-8 decoration-1">
                                 Por que as famílias estão endividadas?

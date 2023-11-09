@@ -37,6 +37,13 @@ body {
     display: flex;
     justify-content: space-around;
   }
+  #divider {
+    width: 110%;
+    /* border-bottom: 1px solid #000; */
+    height: 1px;
+    background: linear-gradient(to right, #2965cc, #ffffff00, #2965cc);
+    margin: 5rem auto;
+  }
 }
 @media screen and (max-width: 1280px) { /*? For Small Screens */
   #turma {
@@ -55,12 +62,19 @@ body {
   }
   #turma {
     margin: 3rem auto;
-    width: 30%;
+    width: 80%;
   }
 
   #main-charts {
     display: block;
     justify-content: space-around;
+  }
+  #divider {
+    width: 100%;
+    /* border-bottom: 1px solid #000; */
+    height: 1px;
+    background: linear-gradient(to right, #2965cc, #ffffff00, #2965cc);
+    margin: 5rem auto;
   }
 }
 
@@ -77,13 +91,6 @@ body {
   text-shadow: 0 0 1rem #fff;
 }
 
-#divider {
-  width: 110%;
-  /* border-bottom: 1px solid #000; */
-  height: 1px;
-  background: linear-gradient(to right, #2965cc, #ffffff00, #2965cc);
-  margin: 5rem auto;
-}
 #vertical-divider {
   border-left: 1px solid #fff;
   height: 100%;
