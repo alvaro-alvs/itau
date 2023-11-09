@@ -2,6 +2,7 @@ import { useState } from "react";
 import BackBar from "../../components/Back_bar"
 import PreCaseHeader from "../../components/questions/PreCaseHeader";
 import PreCaseOneSection from "../../components/questions/PreCaseOneSection";
+import NextOrPrev from "../../components/ui/NextOrPrev";
 import {
     Accordion,
     AccordionHeader,
@@ -111,6 +112,11 @@ export default function PreCaseOne() {
                         </article>
                     </section>
                 </p>
+            </div>
+
+            <div id="divider"></div>
+            <div className="flex justify-center my-10">
+                <NextOrPrev goto={'two'}/>
             </div>
         </>
     )

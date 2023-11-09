@@ -38,10 +38,10 @@ body {
     justify-content: space-around;
   }
   #divider {
-    width: 110%;
+    width: 100%;
     /* border-bottom: 1px solid #000; */
     height: 1px;
-    background: linear-gradient(to right, #2965cc, #ffffff00, #2965cc);
+    background: linear-gradient(to right, #da7e16, #ffffff00, #da7e16);
     margin: 5rem auto;
   }
 }
@@ -126,4 +126,17 @@ body {
 
 #sqr-1 {
   border-right: 1px solid #fff;
+}
+
+#nextorprev {
+  padding: 1rem;
+  border-radius: 1rem;
+  background: #2965cc;
+  margin: auto;
+  justify-self: center;
+  transition: .3s;
+}
+#nextorprev:hover {
+  background: #3a76df;
+  
 }

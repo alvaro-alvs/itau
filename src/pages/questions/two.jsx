@@ -1,6 +1,7 @@
 import BackBar from "../../components/Back_bar"
 import PreCaseTwoSection from "../../components/questions/PreCaseTwoSection"
 import PreCaseHeader from "../../components/questions/PreCaseHeader"
+import NextOrPrev from "../../components/ui/NextOrPrev"
 
 export default function PreCaseTwo() {
     return (
@@ -75,6 +76,12 @@ export default function PreCaseTwo() {
                         <a href="https://www.serasa.com.br/limpa-nome-online/blog/endividamento-no-brasil/">https://www.serasa.com.br/limpa-nome-online/blog/endividamento-no-brasil/</a>
                     </footer>
                 </section>
+            </div>
+
+            <div id="divider"></div>
+
+            <div className="flex justify-center my-10">
+                <NextOrPrev goto={'one'}/>
             </div>
         </>
     )
